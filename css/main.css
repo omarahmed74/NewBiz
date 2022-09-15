@@ -1,0 +1,357 @@
+body {
+    font-family: "Open Sans",sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+   background-color: white;
+}
+
+.navbar .navbar-brand {
+    padding: 0px 30px;
+}
+
+.navbar .navbar-collapse{
+    padding: 0px 40px;
+}
+
+.navbar .nav-item {
+    padding: 7px 10px;
+}
+
+.navbar ul li a {
+    color: #004289;
+    transition: all .4s;
+    font-weight: 400;
+    
+}
+
+.navbar ul li a:hover {
+    color: #007bff;
+}
+
+.home {
+    padding: 200px 0px 120px;
+    width: 100%;
+    height: 120vh;
+    background: url(../img/hero-bg.png) center bottom/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    direction: rtl;
+}
+
+
+.home .Home h2 {
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.home .Home h2 span {
+    color: #74b5fc;
+    text-decoration: underline;
+}
+
+.home .Home .btn-1 {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 50px;
+    transition: .5s;
+    margin: 0 20px 20px 0;
+    background: #007bff;
+    border: 2px solid #007bff;
+    color: #fff; 
+    text-decoration: none;
+}
+
+.home .Home .btn-1:hover {
+    border: 2px solid #fff;
+    color: #fff; 
+    background: transparent;
+}
+
+.home  .btn-2 {
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 50px;
+    transition: .5s;
+    margin: 0 20px 20px 0;
+    border: 2px solid #fff;
+    color: #fff; 
+    text-decoration: none;
+}
+
+.home .Home .btn-2:hover {
+    border: 2px solid #007bff;
+    color: #fff; 
+    background: #007bff;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../img/download.svg);
+}
+
+.about {
+   padding: 40px 0px;
+}
+
+.About-1 {
+    text-align: center;
+    margin: auto;
+}
+
+.about .About-1 p {
+    padding: 10px 0px;
+    color: #556877;
+}
+
+.about-2 {
+    padding: 20px;
+}
+
+.about-2 p {
+    color: #556877;
+}
+
+.icons .icon {
+    margin: 10px 0px;
+    float: left;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    transition: .4s ease-in-out;
+    color: #007bff;
+}  
+
+.icons .icon:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.about-two .about-2 .icons {
+    padding: 10px 0px;
+}
+
+.about-two .about-2 .icons h3  {
+    margin-left: 80px;
+    margin-bottom: 5px;
+}
+
+.about-two .about-2 .icons p {
+    margin-left: 80px;
+}
+
+.about-two img {
+    margin: 50px 0px;
+}
+
+.about-next {
+    padding: 20px 0px;
+}
+
+.about-next .about-next-text h3 {
+    padding: 20px 0px;
+    font-weight: 600;
+}
+
+.about-next .about-next-text p {
+    color: #556877;
+    padding: 8px 0px;
+}
+
+ .text-23 {
+    padding: 50px 0px;
+}
+
+.services {
+    box-shadow: inset 0 0 12px 0 rgb(0 0 0 / 10%);
+    padding: 60px 0 40px;
+}
+
+.section-bg {
+    background: #ecf5ff;
+}
+
+.services .box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 10px 40px;
+    transition: .5s ease-in-out;
+}
+
+.services .icon {
+    position: absolute;
+    left: -25px;
+    top: 50px;
+    font-size: 60px;
+
+}
+
+.services h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.services p {
+    font-size: 14px;
+    color: #556877;
+    margin-left: 40px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.services-title {
+    padding: 30px 0px;
+}
+
+.services .box:hover {
+    transform: translateY(-12px);
+}
+
+
+.why-us {
+    background: #004a99;
+}
+
+.whyUs-title {
+    padding: 60px 0px;
+    color: white;
+}
+
+.why-us .card {
+    background: #00458f;
+    border-color: #00458f;
+    margin: 0 15px;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+
+.icon-1 {
+    font-size: 48px;
+    padding-top: 15px;
+    color: #bfddfe;
+}
+
+.btn {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+    color: #007bff;
+}
+
+.why-us .card:hover {
+    background: #013a78;
+}
+
+.why-us span {
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+}
+
+.why-us .rwo {
+    padding-top: 40px;
+}
+
+
+
+.portfolio {
+    padding: 60px 0;
+}
+
+.portfolio .portfolio-first {
+    padding: 0;
+    margin: 5px 0 35px;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-pills {
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 750px) {
+
+    .home .Home h2 {
+        font-size: 37px;
+        margin: 50px 0px;
+    }
+
+    .home {
+        text-align: center;
+    }
+
+    .home {
+        padding: 100px 0px 120px;
+    }
+
+    .about-two img {
+        margin: 20px 0px;
+    }
+    
+    .about-next .about-next-text h3 {
+        padding: 20px 0px;
+    }
+
+    .about-next .about-next-text {
+        padding: 0px 10px;
+    }
+
+    
+    
+
+    
+
+
+    
+
+
+}
+
+
+
+
